@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;          
+  } 
+  
+.main{
+    background-image: url(images/bg_home.gif);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.welcome{
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:white;
+
+}
+
+.welcome h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.welcome h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome .icon{
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.welcome .btn:hover{
+    color: white;
+}
